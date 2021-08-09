@@ -1,0 +1,140 @@
+/****** FONTS ******/
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sansita {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+/****** COLORS ******/
+.txt-red {
+    color: #89091a;
+}
+
+.txt-yellow {
+    color: #f2cb01;
+}
+
+.txt-green {
+    color: #288a26;
+}
+
+.navbar-light .navbar-brand {
+    color: #89091a;
+}
+
+
+/****** HEADER ******/
+header {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+/****** MAIN CONTENT ******/
+.no-background {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.jumbotron-content {
+    color: #fff;
+    padding: 13rem 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron-btns-container button {
+    width: 200px;
+    margin: 3rem .5rem;
+}
+
+.menu-button {
+    background-color: #fff;
+}
+
+.menu-button:hover {
+    color: #89091a;
+    background-color: rgb(184, 184, 184);
+}
+
+.find-button {
+
+    color: #fff;
+    background-color: #89091a;
+}
+
+.find-button:hover {
+    color: #fff;
+    background-color: #88424b;
+}
+
+/****** CARD SECTION ******/
+.card-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/food4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    border-radius: 4px;
+}
+
+.border-red {
+    border: 1px solid #89091a;
+}
+
+.card-btn {
+    background-color: #f2cb01;
+}
+
+.card-btn:hover {
+    color: #fff;
+    background-color: #288a26;
+}
+
+
+/****** FOOTER ******/
+footer {
+    background-color: #242424;
+    color: #919191;
+}
+
+footer a {
+    color: #919191;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #535353;
+}
+
+/****** UP TO LARGE ******/
+
+@media all and (max-width: 991.98px) {
+    .no-background {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .ari-intro {
+        padding-bottom: 1.5rem;
+    }
+
+}
+
+
+/****** UP TO MEDIUM ******/
+@media all and (max-width: 575.98px) {
+
+    .jumbotron-content {
+        padding: 5rem 1rem;
+    }
+
+    .jumbotron-btns-container button {
+        width: 200px;
+        margin: 1rem .5rem;
+    }
+}
