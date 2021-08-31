@@ -21,10 +21,32 @@
     color: #288a26;
 }
 
+.txt-white {
+    color: #ffffff;
+}
+
 .navbar-light .navbar-brand {
     color: #89091a;
 }
 
+
+/****** GENERAL *******/
+
+a {
+    text-decoration: none;
+}
+
+.jumbo-phone-container {
+    padding: 1.5rem 0;
+}
+
+.jumbo-phone {
+    font-size: 1.5rem;
+}
+
+.jumbo-phone:hover {
+    color: #919191;
+}
 
 /****** HEADER ******/
 header {
@@ -104,7 +126,6 @@ footer {
 
 footer a {
     color: #919191;
-    text-decoration: none;
 }
 
 footer a:hover {
@@ -119,7 +140,7 @@ footer a:hover {
         padding-bottom: 3rem;
     }
 
-    .ari-intro {
+    .side-text {
         padding-bottom: 1.5rem;
     }
 
@@ -127,10 +148,23 @@ footer a:hover {
 
 
 /****** UP TO MEDIUM ******/
-@media all and (max-width: 575.98px) {
+@media all and (max-width: 768px) {
+
+    .jumbo-phone {
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        padding: .5rem 1rem;
+border-radius: .3rem;
+        width: 200px;
+    }
 
     .jumbotron-content {
         padding: 5rem 1rem;
+    }
+
+    .jumbotron-btns-container {
+        display: flex;
+flex-direction: column;
     }
 
     .jumbotron-btns-container button {
